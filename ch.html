@@ -4,32 +4,25 @@
 <title>checkbox</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="check.js"></script>
-
-<style type="text/css">
-    body {
-        background-color: #6362bb;
-    }
-    .box{
-        color: #fff;
-        padding: 20px;
-        display: none;
-        margin-top: 20px;
-    }
-</style>
+        <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <center>
-        <h3>Please click on checkbox to see their email id: </h3>
-        <div>
-            <label><input type="checkbox" name="user" value="user1"> user1@gmail.com</label><br>
-            <label><input type="checkbox" name="user" value="user2"> user2@gmail.com</label><br>
-            <label><input type="checkbox" name="user" value="user3"> user3@gmail.com</label><br>
-    
-            <div class="box user1">You selected <strong>user1@gmail.com</strong></div>
-            <div class="box user2">You selected <strong>User2@gmail.com</strong></div>
-            <div class="box user3">You selected <strong>User3@gmail.com</strong></div>    
+        <h2>Please click on checkbox to see their values: </h2>
+        <div class="main">
+            <label><input type="checkbox" name="user" value="user1" class="chkbox"> user1</label><br>
+            <label><input type="checkbox" name="user" value="user2" class="chkbox"> user2</label><br>
+            <label><input type="checkbox" name="user" value="user3" class="chkbox"> user3</label><br>
+            <label><input type="checkbox" name="user" value="user4" class="chkbox"> user4</label><br>
+            <label><input type="checkbox" name="user" value="user5" class="chkbox"> user5</label><br>
+            <label><input type="checkbox" name="user" value="user6" class="chkbox"> user6</label><br>
+            <label><input type="checkbox" name="user" value="user7" class="chkbox"> user7</label><br>
         </div>
+
+        <hr>
+       <textarea type="text" id="selectedtext" placeholder="selected checkboxes"></textarea><br>
+        <input type="text" id="count" placeholder="No of selected checkboxes" class="count">
     </center>
 </body>
 </html>                

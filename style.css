@@ -1,0 +1,19 @@
+body {
+	background-color: #6362bb;
+}
+
+textarea {
+	width: 300px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.main {
+	margin: 20px;
+}
+.count {
+	margin-top: 10px;
+}
+h2 {
+	color: white;
+}

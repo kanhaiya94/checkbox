@@ -13,7 +13,11 @@ textarea {
 }
 .count {
 	margin-top: 10px;
+	width: 15px;
 }
 h2 {
+	color: white;
+}
+span {
 	color: white;
 }

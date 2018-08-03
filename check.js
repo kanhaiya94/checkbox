@@ -1,10 +1,3 @@
-// $(document).ready(function(){
-//     $('input[type="checkbox"]').click(function(){
-//         var inputValue = $(this).attr("value");
-//         $("." + inputValue).toggle();
-//     });
-// });
-
 $(document).ready(function(){
 	$('.chkbox').click(function(){
 		var text = "" ;
@@ -12,7 +5,7 @@ $(document).ready(function(){
 		{
 			text+=$(this).val()+ ',';
 		});
-		// text=text.substring(0,text.length-1);
+		text=text.substring(0,text.length-1);
 		$("#selectedtext").val(text + " is selected");
 		$('#count').val($("[type='checkbox']:checked").length);
 	});
